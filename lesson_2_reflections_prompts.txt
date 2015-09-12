@@ -1,0 +1,9 @@
+Q: What happens when you initialize a repository?
+A: Git initializes an empty repo in the current directory
+
+Q:Why do you need to do it?
+A: I may need to create a repo in the  current directory to track the files in it
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: the staging area has the files that are to committed and not necessarily all the files in the directory.
+It offers much control over what changes I want to be committed and what changes I do not want ot be committed
