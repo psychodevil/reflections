@@ -7,3 +7,26 @@ A: I may need to create a repo in the  current directory to track the files in i
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: the staging area has the files that are to committed and not necessarily all the files in the directory.
 It offers much control over what changes I want to be committed and what changes I do not want ot be committed
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: By keeping changes related along with each other. And making versions of the project that contain different data.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Because I'm not usually good with remembering I usually like to retain these diagrams to make it to facilitate my work
+Q: How can you use the stagin area to make sure you have one commit per logical change?
+A: As only the files that I'm sure make a logical change will be added later to the commit
+
+Q: what is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Git compares the files of the branches to be merged with the parent branch and adds the changes that were introduced and deletes any deleted lines
+Because it combined the changes in the two branches (Adds and Dels)
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A: Automatic merging:
+	pros: It is easier for smaller changes as Git adds changes
+	cons: may make conflicts and make the file unable to run 
+   Manual:
+   	pros: Gives the user more control to add the changes he thinks convenient
+   		  Resolves conflicts in code in more efficent way
+   		  Does not have extra code
+    cons: Usually slower
+     	  Takes more effort
